@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Fugaz+One&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --LogoText: 'Fugaz One';
+    --NavigationText: Oswald;
+    --TitleText: Fredoka;
+    --SubtitleText: Epilogue;
+}
+
+.main-title__top {
+    color: var(--MainColor);
+    font-family: var(--TitleText);
+    letter-spacing: .5px;    
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-title {
+    color: var(--BlackColor);
+    font-family: var(--TitleText);
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    color: var(--BlackColor);
+    color: #fff;
+    font-family: var(--SubtitleText);
+    font-size: 14px;
+}
+
+.yellow-line {
+    display: inline-block;
+    width: 220px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: var(--YellowColor);
+}

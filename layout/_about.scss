@@ -1,0 +1,96 @@
+.about-content {
+    padding: 70px 0;
+    .main-title__top {
+        text-align: center;
+    }
+    .main-title {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-info {
+        padding: 45px 0;
+        display: flex;
+        justify-content: space-between;
+        .about-images {
+            display: flex;
+            gap: 40px;
+            .about-img {
+                width: 250px;
+                height: 380px;
+                border-radius: 130px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .about-text {
+            width: 500px;
+
+            p {
+                width: 90%;
+                font-family: var(--SubtitleText);
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .about-card {
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .card-icon {
+                    width: 80px;
+                    height: 80px;
+                    border: 2px solid var(--YellowColor);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 30px;
+                    color: var(--MainColor);
+                }
+                .card-text {
+                    .card-title {
+                        font-family: var(--TitleText);
+                        font-weight: 600;
+                        letter-spacing: .5px;
+                        font-size: 22px;
+                    }
+                    .card-description {
+                        font-family: var(--SubtitleText);
+                        font-size: 15px;
+                        padding: 10px 0;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .category {
+        padding-top: 50px;
+        .category-cards {
+            padding: 25px 0;
+            display: flex;
+            justify-content: space-between;
+            .category-card {
+                .card-img {
+                    width: 220px;
+                    height: 110px;
+                    border-radius: 60px;
+                    overflow: hidden;
+                    object-fit: cover;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .main-title {
+                    font-size: 18px;
+                    padding: 7px 0;
+                }
+            }
+        }
+    }
+}
